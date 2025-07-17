@@ -1,9 +1,9 @@
-<h1 align="center">Hi! I'm Shannja!</h1>
+<h1 align="center">Hi! I'm eseyem!</h1>
 <h3 align="center">A passionate multimedia enthusiast!</h3>
 
-- 📄 Know about my [experiences!](https://sh4nnja.github.io/sh4nnja)
+- 📄 Know about my [experiences!](https://eseyem.dev)
 
-- 💖 See my [work!](https://sh4nn.itch.io)
+- 💖 See my [work!](https://eseyem.itch.io)
 
 <h3 align="left">Tools I use when working with my projects!</h3>
 <p align="left">
