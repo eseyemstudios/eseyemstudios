@@ -30,6 +30,9 @@ import centrixGameplay from '../assets/images/centrix-gameplay.png'
 import starlitBg from '../assets/images/starlit-veil.png'
 import starlitGameplay from '../assets/images/starlit-veil-gameplay.png'
 
+import balikbayanLogo from '../assets/images/balikbayan-logo.png'
+import balikbayanGameplay from '../assets/images/balikbayan-gameplay.png'
+
 // Main Releases Data - Your indie game titles
 const releases = [
   {
@@ -79,6 +82,13 @@ const gameJamGames = [
     jamName: 'Aral Arcade Game Jam 2025',
     description: 'In the vastness of the mind, even a single memory can become its own small world.',
     itchUrl: 'https://eseyem.itch.io/starlit-veil'
+  },
+  {
+    title: 'Balikbayan Box',
+    thumbnail: balikbayanGameplay,
+    jamName: 'DevelUP Game Jam 2026',
+    description: 'Balikbayan boxes connect people abroad back home. With hard orders present, will you let it through?',
+    itchUrl: 'https://jazz-z.itch.io/balikbayan-box'
   }
 ]
 
@@ -144,6 +154,21 @@ function Home() {
               }
             ]}
           />
+            <GameSection
+              title="Balikbayan Box"
+              logo={balikbayanLogo}
+              description="Balikbayan boxes connect people abroad back home. With hard orders present, will you let it through?"
+              backgroundImage={balikbayanGameplay}
+              platforms={[
+                {
+                  name: 'itch.io',
+                  url: 'https://jazz-z.itch.io/balikbayan-box',
+                  variant: 'itch',
+                  icon: itchIcon,
+                  buttonText: "Play on itch.io"
+                }
+              ]}
+            />
         </Carousel>
 
         <div className="showcase-section">
